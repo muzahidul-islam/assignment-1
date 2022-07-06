@@ -10,7 +10,6 @@ body{
 }
 
 h1{
-    text-align: center;
     font-size: 50px;
 }
 
@@ -29,6 +28,10 @@ h1{
 
 .text-align-center{
     text-align: center;
+}
+
+.text-align-left{
+    text-align: left;
 }
 
 .flexible-container{
@@ -87,6 +90,7 @@ h1{
 hr.solid {
     border-top: 2px solid #bbb;
     margin-bottom: 3em;
+    margin-left: 19px;
   }
   
 .other-amount a{
@@ -105,3 +109,29 @@ hr.solid {
     border-radius: 6px;
     font-size: 25px;
 }
+
+#support-section{
+    max-width: 1600px;
+}
+
+.newsletter-form{
+    max-width: 1200px;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    font-family: Arial;
+  }
+  
+.container {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+
+.submit-icon{
+    border-radius: 5px;
+}
+.submit-icon input[name]{
+    background-color: #3A8251;
+    
+  }
