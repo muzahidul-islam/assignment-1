@@ -9,8 +9,14 @@ body{
     vertical-align: middle;
 }
 
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+ 
 .a-button-style{
-    margin-top: 100px;
+
     padding: 15px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -24,6 +30,18 @@ body{
 .text-align-center{
     text-align: center;
 }
+
+.flexible-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.center {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 10px;
+  }
+
 
 .para-font{
     font-size: 24px;
@@ -47,4 +65,43 @@ body{
 }
 .top-header p{
     margin-bottom: 40px;;
+}
+#donate-today{
+    
+    max-width: 1200px;
+}
+
+
+
+#donate-today .box{
+    flex: 1;
+    background-color: #ececec;
+    margin: 15px 15px;
+    padding:65px 30px;
+    border-radius: 6px;
+    color: grey;
+    font-size: 40px;
+
+}
+
+hr.solid {
+    border-top: 2px solid #bbb;
+    margin-bottom: 3em;
+  }
+  
+.other-amount a{
+    margin-top: 30px;
+}
+
+#donate-plan{
+    max-width: 1600px;
+}
+
+#donate-plan .box{
+    flex: 1;
+    background-color: #ececec;
+    margin: 15px 15px;
+    padding:90px 30px;
+    border-radius: 6px;
+    font-size: 25px;
 }
