@@ -9,6 +9,14 @@ body{
     vertical-align: middle;
 }
 
+.a-button-style{
+    margin-top: 100px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #3A8251;
+}
 .color-white{
     color: white;
 }
@@ -23,14 +31,20 @@ body{
 }
 
 .top-header{
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 0, 0.842)),
                       url("images/donation12.png");
+    padding: 100px 150px;
+    padding-bottom: 200px;
+    background-attachment: scroll;
     background-position: center;
-    padding: 150px 200px;
     
 }
 
-h1{
+.top-header h1{
     font-size: 70px;
-    margin-top: 100;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.top-header p{
+    margin-bottom: 40px;;
 }
