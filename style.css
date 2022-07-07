@@ -131,7 +131,9 @@ hr.solid {
 .support-content .text-section{
     width: 60%;
 }
-
+.support-content .text-section p{
+    margin-bottom: 40px;
+}
 .support-content .image-section{
     width: 40%;
 }
