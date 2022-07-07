@@ -50,19 +50,18 @@ h1{
     margin-left: auto;
     margin-right: auto;
     width: 1500px;
-    display: block;
-    
-  }
+    }
+
   .box-content-3 {
     margin-left: auto;
     margin-right: auto;
     width: 1700px;
-    display: block;
-  }
+    }
 
 .para-font{
     font-size: 24px;
     letter-spacing: -0.5px;
+    margin: 30px 378px;
 }
 
 .top-header{
@@ -114,9 +113,8 @@ hr.solid {
 
 #donate-plan .box{
     flex: 1;
-    background-color: #ececec;
     margin: 15px 15px;
-    padding:90px 30px;
+    padding:90px 60px;
     border-radius: 6px;
     font-size: 25px;
 }
@@ -125,8 +123,22 @@ hr.solid {
     margin: 200px 0;
 }
 
+.support-content p{
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    margin: 50px 0;
+}
+
+.support-content .text-section{
+    width: 60%;
+}
+
+.support-content .image-section{
+    width: 40%;
+}
+
 .newsletter-form{
-    margin: 20px 0;
+    margin-top: 20px;
 }
 
 form {
@@ -139,12 +151,20 @@ form {
     background-color: #f1f1f1;
   }
 
-.submit-icon{
-    
-}
 .submit-icon input[value]{
     color: white;
     background-color: #3A8251;
     padding: 10px 30px;
     border-radius: 5px;
+    }
+
+    .footer p{
+        color: white;
+        font-size: small;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 0;
+        padding-top: 30px;
+        background-image: linear-gradient(to left,rgba(8, 8, 8, 0.719), rgb(0, 0, 0));
+        min-height: 50px;
     }
